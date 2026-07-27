@@ -1,8 +1,24 @@
 aid: international-network-services
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/international-network-services.png
 name: International Network Services
-description: International Network Services is a company surfaced as a portfolio company of canaan-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: International Network Services (INS) was one of the world's largest independent network
+  consulting and security services providers, delivering enterprise network design, infrastructure,
+  and network security solutions to financial services, pharmaceutical, aerospace, energy, and
+  transportation customers. Backed by Canaan Partners (Series C) alongside investors including Sequoia
+  Capital, Cisco Investments, and Lucent Technologies, the company was acquired by Lucent. It is tracked
+  in the API Evangelist network as a venture-backed portfolio company; it does not currently operate a
+  public API developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/international-network-services/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +26,26 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Lucent Technologies
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Networking
+- Network Consulting
+- Network Security
+- Enterprise IT
+- Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
