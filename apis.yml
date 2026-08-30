@@ -60,3 +60,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/lucent/
+  name: Lucent
+  x-relationship: acquired
+  x-evidence: "Backed by Canaan Partners (Series C) alongside investors including Sequoia Capital, Cisco Investments, and Lucent Technologies, the company was acquired by Lucent. It is tracked in the API Evangelist network as a venture-backed portfolio co"
